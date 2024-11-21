@@ -1,0 +1,39 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header */
+  header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product Cards */
+  .card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-img-top {
+    height: 300px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background: #343a40;
+  }
+  
